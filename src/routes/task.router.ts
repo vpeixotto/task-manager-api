@@ -1,4 +1,4 @@
-import { Task, TaskStatus } from "../types/task.type.js";
+import { Task } from "../types/task.type.js";
 import express, { Router, type Request, type Response } from 'express';
 
 const router = express.Router({ caseSensitive: true, strict: true });
